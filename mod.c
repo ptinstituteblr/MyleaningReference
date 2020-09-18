@@ -20,4 +20,5 @@ int main(void) {
 
   modbus_close(mb);
   modbus_free(mb);
+  return 0;
 }
